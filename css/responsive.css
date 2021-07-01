@@ -1,0 +1,63 @@
+
+/*-------PHONE ||-----------*/
+@media only screen and (max-width: 320px ) {
+
+}
+/*-------PHONE = -----------*/
+@media only screen and (max-width: 480px) {
+    
+}
+/*-------TABLET || -----------*/
+@media only screen and (max-width: 620px) {
+    .top-header {
+        display: block;
+    }
+    .content-left, .content-right, .content-center {
+        justify-content: flex-start;
+        width: 100%;
+        padding: 5px 0;
+    }
+}
+/*-------TABLET || BIG -----------*/
+@media only screen and (max-width: 768px) {
+    
+}
+/*-------TABLET = -----------*/
+@media only screen and (max-width: 800px) {
+    
+/*-------TABLET = BIG -----------*/
+@media only screen and (max-width: 1024px) {
+    .content-center {
+    display: none;
+    }
+    .top-header {
+        flex-direction: column;
+    }
+    div[class*="box"] {
+        justify-content: space-around;
+    }
+    .content-right.icon-menu {
+        display: block;
+        font-size: 25px;
+    } 
+    .logo {
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    img.poster { 
+        width: 88vw;
+    }
+    .box-poster {
+        flex-wrap:wrap;
+        gap: 30px;
+    } 
+    .box-client-say p {
+        width: 80%; 
+    }.box-selling .box-product {
+        display: block !important;
+        max-width: calc(33.3333333% - 23px);
+    } 
+    
+}  
